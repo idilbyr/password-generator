@@ -1,0 +1,81 @@
+body{
+    background-color: #1C1C1C;
+}
+
+.container{
+    margin :auto;
+    padding-left: 20px;
+    width: 600px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: #1F2937;
+    color: white;
+    text-shadow: 0 0 1px black;
+}
+.diff-color{
+    color: #4ADF86;
+}
+
+.note{
+    color: #D5D4D8;
+    font-style:italic;
+}
+
+.pswrd-el{
+    width: 211px;
+    height: 39px;
+    background-color: #2F3E53;
+
+    color:#55F991;
+}
+
+.line{
+    height:2px;
+    width:500px;
+    background-color:#2F3E53;
+}
+
+.password{
+    display: flex;
+    gap:10px;
+}
+
+#generate{
+    cursor: pointer;
+    color:white;
+    background-color:#10B981;
+    margin-top:20px;
+
+}
+
+button{    
+    padding:10px;
+    border-radius:3px;
+    border:none;
+}
+
+#copy1,#copy2{
+    cursor: pointer;
+    background-color:#10B981;
+    color:white;
+    padding:5px;
+    border-radius:3px;
+    border:none;
+}
+
+#length,#generate-btn{
+
+    height:18px;
+    background-color: #1F2937;
+    color:#4ADF86;
+    border:1px, double, white   ;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn:active{
+    transform: scale(0.93); /* Add scale transformation */
+}
